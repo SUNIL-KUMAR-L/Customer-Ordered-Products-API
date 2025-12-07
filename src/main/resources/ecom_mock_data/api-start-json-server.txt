@@ -1,0 +1,36 @@
+npx json-server db.json
+JSON Server started on PORT :3000
+Press CTRL-C to stop
+Watching db.json...
+
+( ˶ˆ ᗜ ˆ˵ )
+
+Index:
+http://localhost:3000/
+
+Static files:
+Serving ./public directory if it exists
+
+Endpoints:
+http://localhost:3000/customers
+http://localhost:3000/products
+http://localhost:3000/prices
+http://localhost:3000/orders
+PS C:\Users\sunil\my_apps\ecom_mock_data> npx json-server db.json
+JSON Server started on PORT :3000
+Press CTRL-C to stop
+Watching db.json...
+
+♡( ◡‿◡ )
+
+Index:
+http://localhost:3000/
+
+Static files:
+Serving ./public directory if it exists
+
+Endpoints:
+http://localhost:3000/customers
+http://localhost:3000/products
+http://localhost:3000/prices
+http://localhost:3000/orders
