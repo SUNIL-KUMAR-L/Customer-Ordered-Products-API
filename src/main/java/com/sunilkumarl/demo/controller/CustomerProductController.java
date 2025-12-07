@@ -1,6 +1,7 @@
 package com.sunilkumarl.demo.controller;
 
 
+import com.sunilkumarl.demo.model.CustomerOrderedProducts;
 import com.sunilkumarl.demo.model.Product;
 import com.sunilkumarl.demo.service.CustomerOrdersProductFacade;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,6 +24,11 @@ public class CustomerProductController {
     @GetMapping
     public List<Product> getCustomerProducts(@RequestParam String customerName) {
         return customerProductService.getProductsByCustomerName(customerName);
+    }
+
+    @GetMapping("/detailed")
+    public CustomerOrderedProducts getCustomerOrderedProducts(@RequestParam String customerName) {
+        return customerProductService.getCustomerOrderedProducts(customerName);
     }
 
 }
